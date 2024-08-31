@@ -14,19 +14,12 @@ useSeoMeta({
 
 <template>
   <UContainer>
-    <UPage>
-      <UPageHeader
-        :title
-      />
-      <UPageBody class="flex flex-col gap-12">
-        <ProfileSectionInformation />
+      <ProfileSectionInformation />
 
         <ProfileSectionProviders />
 
         <UDivider />
 
         <ProfileSectionDeleteAccount />
-      </UPageBody>
-    </UPage>
   </UContainer>
 </template>

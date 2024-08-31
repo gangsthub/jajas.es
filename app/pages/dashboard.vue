@@ -12,12 +12,6 @@ useSeoMeta({
 
 <template>
   <UContainer>
-    <UPage>
-      <UPageHeader
-        :title
-      />
-
-      <!-- Use a UPageBody to build the user dashboard -->
-    </UPage>
+    {{title}}
   </UContainer>
 </template>

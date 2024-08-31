@@ -12,11 +12,9 @@ useSeoMeta({
   <div>
     <AppHeader />
 
-    <UMain>
-      <UPage>
+      <main id="main">
         <slot />
-      </UPage>
-    </UMain>
+      </main>
 
     <AppFooter />
   </div>

@@ -8,12 +8,14 @@ useSeoMeta({
 
 <template>
   <UContainer>
-    <UPage>
-      <UPageHeader
-        :title
-      />
-
-      <!-- Use a UPageBody to build the user dashboard -->
-    </UPage>
+    <h1 class="text-3xl font-bold mb-4">{{ title }}</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+      fermentum nunc. Nullam nec fermentum nunc. Nullam nec fermentum nunc.
+      Nullam nec fermentum nunc. Nullam nec fermentum nunc. Nullam nec
+      fermentum nunc. Nullam nec fermentum nunc. Nullam nec fermentum nunc.
+      Nullam nec fermentum nunc. Nullam nec fermentum nunc. Nullam nec
+      fermentum nunc. Nullam nec fermentum nunc. Nullam nec fermentum nunc.
+    </p>
   </UContainer>
 </template>
